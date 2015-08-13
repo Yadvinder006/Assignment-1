@@ -18,7 +18,7 @@ public class StddbCon extends javax.swing.JFrame {
         initComponents();
         
         try {
-            String driver = "sun.jdbc.odbc.jdbcOdbcDriver";
+            String sddb1 = (new File("") ;
             Class.forName(driver);
             String login = "jdbc:odbc:stddb";
             con = DriverManager.getConnection(login);
